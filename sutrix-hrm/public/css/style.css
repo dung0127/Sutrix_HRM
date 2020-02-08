@@ -1,0 +1,260 @@
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: repeat;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  z-index: 2;
+  width: 100%;
+  background: #fff;
+  border-radius: 3px;
+  overflow: hidden;
+  font-family: 'Century Gothic', sans-serif;
+}
+
+header .line hr {
+  margin: auto;
+  border-top: 1px solid #9c9c9c;
+}
+
+header .title{
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  color: #ff8a00;
+}
+
+
+header .my-icon {
+  position: absolute;
+  z-index: 3;
+  font-size: 35px;
+  color: #000000;
+  top: 18px;
+  right: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  top: 25px;
+  padding-bottom: 20px;
+}
+
+header .back {
+  position: absolute;
+  z-index: 3;
+  font-size: 35px;
+  color: #000000;
+  top: 25px;
+  left: 20px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+article .content form {
+  display: block;
+  position: absolute;
+  text-align:center;
+  top: 140px;
+  left: 37%; 
+  height: 150px;
+  width: 400px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+form input {
+  width: 270px;
+  margin: 10px;
+}
+
+button {
+  display: inline-block;
+  margin-top: 15px;
+  width: 63px;
+  background-color: #ff8a00;
+  border: none;
+  padding: 5px 10px;
+}
+
+
+
+
+
+
+
+
+
+.nav{
+   background-color: #dfdfdf;
+
+}
+
+.add{
+  float:right;
+  position: absolute;
+  top: 85px; right: 20px;
+  text-decoration: underline;
+}
+
+.barmenu{
+  background-color: #dfdfdf;
+}
+
+ul.breadcrumb {
+  padding: 5px 15px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  list-style: none;
+  background-color: #dfdfdf;
+  margin:auto;
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+}
+
+ul.breadcrumb li a {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.barmenu {
+  background-color: #fff;
+}
+
+article .content form select {
+  width: 270px;
+  margin: 10px;
+}
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 95%;
+  margin-top: 40px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer
+}
+
+tr:hover {
+  background-color:#ff8a00;
+}
+
+
+
+
+
+
+
+
+
+.content {
+  margin-left: 55px;
+}
+.edit {
+  float:right;
+  position: absolute;
+  top: 85px; right: 60px;
+  text-decoration: underline;
+}
+
+
+
+
+
+.history {
+  padding: 55px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #ff8a00;
+  font-weight: bold;
+}
+.time {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #f0eeee;
+  padding:10px;
+}
+.post-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  background-color: #f0eeee;
+  padding:10px;
+}
+
+.list-line {
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+.list-line hr {
+  margin:auto;
+  border-top: 1px solid #dfdfdf;
+}
+.delete {
+  float: right;
+  cursor: pointer;
+}
+
+.note-cmt {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+.noteInput {
+  display: block;
+  height: 80px;
+  width: 100%;
+}
+
+
+
+
+
+
+
+.row {
+  margin: 10px;
+}
+.detail {
+  margin-top: 40px;
+  display: block;
+}
+
+.row input, select {
+   width: 400px;
+}
+
